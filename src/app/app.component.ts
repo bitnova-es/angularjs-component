@@ -4,9 +4,11 @@ import "./app.scss";
 class AppComponentController implements IComponentController {
     property: string;
     external: string;
+    headerTitle: string;
 
     constructor(){
         this.property = "Hello world!";
+        this.headerTitle = "Header test title";
     }
 }
 
