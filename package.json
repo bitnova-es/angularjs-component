@@ -4,8 +4,8 @@
 		"description": "AngularJs with Webpack",
 		"main": ".src/main.ts",
 		"scripts": {
-			"build": "webpack --config webpack.prod.js",
-			"server": "webpack-dev-server --open --config webpack.dev.js"
+				"build": "webpack --config webpack.prod.js",
+				"server": "webpack-dev-server --open --config webpack.dev.js"
 		},
 		"repository": {
 				"type": "git",

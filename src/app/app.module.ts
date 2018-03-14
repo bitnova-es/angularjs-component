@@ -1,7 +1,6 @@
 import * as angular from "angular";
-import { TestController } from './test.controller';
-import "./app.scss";
+import { AppComponent } from './app.component';
 
 angular
     .module("app", [])
-    .controller("test", TestController);
+    .component(AppComponent.$$name, new AppComponent());
